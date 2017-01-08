@@ -1,0 +1,440 @@
+/* Global Layout Set-up */
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #222;
+}
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:active,
+a:hover {
+  color: #dadada;
+}
+
+/* Section Styles */
+
+.name {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.75em;
+  font-weight: 900;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav {
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+nav li {
+  padding: 5px 10px 10px 10px;
+  background: #fff;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+nav a {
+  transition: all .5s;
+}
+
+header {
+  text-align: center;
+  overflow: hidden;
+  line-height: 1.5;
+  background: #fafafa;
+  padding-bottom: 20px;
+}
+
+.profile-image {
+  width: 200px;
+  margin-top: 30px;
+}
+
+.container {
+  width: 91%;
+  margin: 0 auto;
+}
+main {
+  background: #ededed;
+  padding-bottom: 20px;
+} 
+h2 {
+  font-size: 1em;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.portfolio-img img {
+  width: 90%;
+}
+#portfolio h3 {
+  padding-top: 5px;
+}
+#portfolio p {
+  padding-bottom: 10px;
+}
+
+#skills {
+  background: #ededed;
+}
+
+/* Animated Skills Bar */
+
+#codeconSkills {
+    font-size: 1em;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    width: 80%;
+    border-top: 1px solid #acacac;
+}
+#codeconSkills img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+}
+.codeconSkillbar {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+#codeconHTML {
+    width: 90%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #36acd0;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}
+#codeconCSS {
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #e0ab26;
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-moz-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+#codeconjQuery {
+    animation: Animate-jQuery 5s;
+    -webkit-animation: Animate-jQuery 5s;
+    -moz-animation: Animate-jQuery 5s;
+    -o-animation: Animate-jQuery 5s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color: #52bab4;
+}
+@keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-webkit-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-moz-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-o-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}
+#codeconJS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 75%;
+    height: 50px;
+    position: absolute;
+    background-color: #675a85;
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}
+.codeconSkillArea {
+    z-index: 1;
+    float: left;
+    //position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+}
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+}
+
+/* Contact */
+
+#contact {
+  background: #fafafa;
+}
+.contact-border {
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 30px;
+}
+span {
+  padding-left: 15px;
+  color: #52bab4;
+}
+
+/* Footer */
+
+footer {
+  background: #fafafa;
+}
+footer ul {
+  display: inline;
+  list-style-type: none;
+}
+.footer-name {
+  float: left;
+  padding-left: 10px;
+}
+.nav-back-to-top {
+  float: right;
+  padding-right: 10px;
+}
+footer h2 {
+  font-size: 0.9em;
+}
+.alt-nav {
+  display: none;
+}
+
+/* Clearfix */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {
+  
+  .nav li {
+    display: inline;
+    background: #fafafa;
+  }
+  .profile-image {
+    float: right;
+    width: 45%;
+    padding-left: 45px;
+  }
+  header {
+    padding-bottom: 30px;
+  }
+  header p {
+    text-align: left;
+    margin-top: 25px;
+  }
+  .portfolio-cel {
+    display: inline-block;
+    width: 49%;
+    vertical-align: text-top;
+  }
+  .contact-text {
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .nav-back-to-top {
+    display: none;
+  }
+  .alt-nav {
+    display: inline;
+  }
+  .alt-nav li {
+    display: inline;
+    padding-right: 20px;
+    float: right;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 95%;
+  }
+  .h-container {
+    width: 90%;
+  }
+  .name-nav {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .name {
+    display: inline-block;
+    float: left;
+    padding-top: 25px;
+  }
+  nav {
+    margin-top: 30px;
+    width: 40%;
+    display: inline;
+    float: right;
+  }
+  header {
+    padding-bottom: 40px;
+  }
+  header p {
+    margin-top: 10px;
+    width: 45%;
+  }
+  .profile-image {
+    width: 40%;
+    height: 210px;
+    margin-top: 10px;
+  }
+  #portfolio {
+    background: #fafafa;
+  }
+  .portfolio-back {
+    background: #ededed;
+    padding-bottom: 20px;
+  }
+  main {
+   padding-bottom: 0px;
+  }
+  .portfolio-cel {
+    width: 30%;
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  #skills {
+    background: #fafafa;
+  }
+  #codeconSkills {
+    background: #ededed;
+    width: 93%;
+  }
+  .codeconSkillbar {
+    width: 90%;
+  }
+  .contact-text {
+    width: 47%;
+  }
+}
